@@ -20,6 +20,7 @@ function handleButtonClick(button) {
         operation += currentInput + " " + value
         currentInput = " "
         operationDisplay.textContent = operation
+        resultDisplay.textContent = " "
     } else if (button.classList.contains("equals")) {
         operation += " " + currentInput
         resultDisplay.textContent = eval(operation)
