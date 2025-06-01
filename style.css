@@ -16,9 +16,9 @@ p, button {
 #app-container {
     margin: auto;
     width: 50dvw;
-    max-width: 350px;
+    max-width: 420px;
     height: 50dvh;
-    padding: 0 16px 16px;
+    padding: 16px 64px 32px 64px;
     background-color: rgba(1, 1, 1, 0.2);
     border-radius: 12px;
 }
